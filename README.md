@@ -32,11 +32,11 @@ I have considered few ML based use cases, and some more statistical use cases wi
 
 Below is the feature correlation matrix for the above use case where correlation between feature pairs are calculated and one of the highly dominant feature pairs are removed. 
 
-![matrix](Images\matrix_3.png)
+![matrix](/Images/matrix_3.png)
 
 Below is the feature importance for the above Use case based on random forest regressor fitting. 
 
-![FI](Images\FI_nexthour.png)
+![FI](/Images/FI_nexthour.png)
 
 I have tried XG Boost, Ensemble Model containing (RF and XGB), and also NN model through MLP. 
 
@@ -52,23 +52,23 @@ I have tried XG Boost, Ensemble Model containing (RF and XGB), and also NN model
 
 Here you can see in general when in time per day, the most number of bets are placed.
 
-![FI](Images\peak_bar.png)
+![Peak_bar](/Images/peak_bar.png)
 
 The multiclass classification model is created to classify the peak hour based on the given data point, and league, and country, betting day, if the event is in week day or week end. 
 
 I have tried XGBoost Classifier to classify and predict the peak hours, and performed Shapely Additive Explanations to show if a particular feature has a positive or negative impact in the classification and also how much is that impact. 0 means no impact. And each point here is each data point.
 
-![FI](Images\shap.png)
+![shap](/Images/shap.png)
 
  #### <ins>Evaluation:</ins>
 
 We are successfully able to identify the peak hours in a day based on various features. The evaluation metrics are given below:
 
-![FI](Images\results_4.png)
+![results](/Images/results_4.png)
 
  <strong>The confusion matrix is also provided for different classifications.</strong>
 
-![FI](Images\cm.png)
+![CM](/Images/cm.png)
 
 
 
