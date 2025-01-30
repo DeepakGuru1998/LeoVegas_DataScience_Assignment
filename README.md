@@ -71,7 +71,44 @@ We are successfully able to identify the peak hours in a day based on various fe
 ![CM](/Images/cm.png)
 
 
+#### Market Behavior and Statistics
 
+<ins>Popular Event Overall based on Number of bets:</ins> 
+
+I made statistics which shows most important event overall and most imporant leagues around the world so that the company can focus on more reources, look for anomalies and prevent fraud during the peak hours. 
+
+![CM](/Images/popular_event.png)
+
+
+<ins>Popular League based on Number of bets:</ins> 
+
+![CM](/Images/popular_league.png)
+
+<ins>Least Engaging hours based on Z score:</ins> 
+
+Based on number of bets made for each hour in a day, I compiled Z scores for each hour, and checked which hours where below -1 of z-score and categorized them as least engaging hours. This can be particularly used by the the company to boost betting at that time, and increase revenue through different strategies.
+
+![CM](/Images/Z.png)
+
+<strong>Least Engaging hours based on Z score:</strong> 
+
+![CM](/Images/Z_time.png)
+
+
+<ins>Turnover distribution for Live vs Pre match betting:</ins> 
+
+    I have showed here the distribution for turnover amount in Euros for Live vs Pre match betting. Even though the data is skewed for Live vs Prematch, the median and mean turnover during the live match seems to be more than pre match. This shows that more people involve during live match and they like dynamic momentum of the game, and put more stakes during the game. Most people, instead of taking pre match decisions, studying the game and analysis, instead prefer to bet live.
+
+![CM](/Images/turnover.png)
+
+
+### <strong>To do in the future</strong>
+
+There are many more things that can be done, with inclusion of more data with more time. 
+
+* Anomalous bets placed in a particular hour
+* Risk vs Reward Odds prediction
+* Time series Analysis for seasonality trends and so on. 
 
 
 
