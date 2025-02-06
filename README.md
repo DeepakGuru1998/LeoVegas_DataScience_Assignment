@@ -22,8 +22,8 @@ I have considered few ML based use cases, and some more statistical use cases wi
  * Number of Bets Next hour
  * Peak Hour Classification for the day
  * Team and League popularity
- * Identify Lease Enagaging hours in a day
- * Turn Over In Eur Statistics for Prematch vs Live Betting
+ * Identify Least Engaging hours in a day
+ * Turn Over In Euros Statistics for Pre-match vs Live Betting
 
 
 
